@@ -1,0 +1,23 @@
+.container{
+    margin: 0 auto;
+    width: 600px;
+    height:200px;
+}
+.place{
+    margin: 20px 20px 0 0;
+    padding: 20px 10px;
+    overflow: auto;
+}
+.pic{
+    float:left;
+    width: 250px;
+}
+.pic img{
+    display:block;
+}
+.intro{
+    margin-left: 200px;
+}
+.clear{
+    clear:both;
+}
