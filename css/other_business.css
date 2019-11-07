@@ -1,5 +1,5 @@
 #nav {
-    width:30%;
+    width:70%;
     margin: 0 auto;
     padding: 0;
     overflow: hidden;
@@ -31,12 +31,12 @@ body{
     width: 600px;
     height:200px;
     font-family: 'Montserrat', Arial, sans-serif;
-    font-size: 0.8em;
+    font-size: 0.7em;
 }
 #head{
     text-align:center;
     padding-bottom:20px;
-    font-size:1.4em;
+    font-size:1.25em;
     letter-spacing: 1.5px;
 }
 .place{
@@ -52,8 +52,25 @@ body{
     display:block;
 }
 .intro{
-    margin-left: 200px;
+    margin-left: 150px;
 }
 .clear{
     clear:both;
+}
+
+@media only screen and (min-width: 768px){
+    #nav {
+        width:30%;
+    }
+    .container{
+        font-size: 0.8em;
+    }
+    #head{
+        padding-bottom:20px;
+        font-size:1.4em;
+        letter-spacing: 1.5px;
+    }
+    .intro{
+        margin-left: 200px;
+    }
 }
