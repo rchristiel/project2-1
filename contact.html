@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en" class="hasjs">
   <head>
-    <title></title>
+    <title>Contact Us</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/contact.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <script async src="js/js.js"></script>
   </head>
   <header>
@@ -18,7 +19,7 @@
     </nav>	
   </header>
   <body>
-    <div class="container">
+    <div class="header">
       <h1>Send us a message!</h1>
       <p>For any questions, comments, or inquiries, fill out the form and we'll get back to you!</p>
     </div>
@@ -38,34 +39,35 @@
       </section>
       <section class="form">
         <form action="#" method="post">
-	  <div>
-	    <label for="fName">First Name:</label>
-	    <input type="text" id="fName" name="fName" required>
-	  </div>
-	  <div>
-	    <label for="lName">Last Name:</label>
-	    <input type="text" id="lName" name="lName" required>
-	  </div>
-	  <div>
-            <label for="email">E-mail:</label>
-	    <input type="email" id="email" name="email" required>
-	  </div>
-	  <div>
-	    <label for="phoneNo">Telephone Number:</label>
-	    <input type="tel" id="phoneNo" name="phoneNo">
-	  </div>
-	  <div>
-	    <label for="message">Message:</label>
-	    <input type="text" id="message" name="message">
-	  </div>
-	  <div class="button">
-	    <button type="submit">Send Message</button>
-          </div>
+		  <div>
+			<label for="fName">First Name:</label>
+			<input type="text" id="fName" name="fName" required>
+		  </div>
+		  <div>
+			<label for="lName">Last Name:</label>
+			<input type="text" id="lName" name="lName" required>
+		  </div>
+		  <div>
+				<label for="email">E-mail:</label>
+			<input type="email" id="email" name="email" required>
+		  </div>
+		  <div>
+			<label for="phoneNo">Telephone Number:</label>
+			<input type="tel" id="phoneNo" name="phoneNo" placeholder="123-123-1234">
+		  </div>
+		  <div>
+			<label for="message">Message:</label>
+			<textarea id="message" name="message" required>
+			</textarea>
+		  </div>
+		  <div class="button">
+			<button type="submit">Send Message</button>
+		  </div>
         </form>
       </section>
     </div>
   </body>
   <footer>
-    <p>Something here</p>
+    <p></p>
   </footer>  
 </html>
