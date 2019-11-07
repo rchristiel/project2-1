@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" class="hasjs">
+  <head>
+    <title>Contact Us</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/contact.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <script async src="js/form.js"></script>
+	</head>
+  <body>
+    <header>
+      <ul id="nav">
+        <li class="navbar"><a href="index.html" class="navlink">HOME</a></li>
+        <li class="navbar"><a href="shop.html" class="navlink">SHOP</a></li>
+        <li class="navbar"><a href="contact.html" class="navlink">CONTACT US</a></li>
+      </ul>	
+    </header>
+    <div class="header">
+      <h1>Send us a message!</h1>
+    </div>
+    <div class="container">
+      <section class="info">
+	<header>
+	  <h2>Our Info</h2>
+	</header>
+        <div class="address">
+	  <p>745 Scenic Circle</p>
+	  <p>Knoxville, TN 37865</p>	
+	</div>
+        <div class="PhoneNumber">
+	  <p>(267)-254-8984</p>
+	  <p>8:00am to 10:00pm EST</p>
+	</div>
+	<div class="main-email">
+	  <p>frayedknotarts@gmail.com</p>
+	</div>
+      </section>
+      <section class="form">
+	<header>
+	  <h2>For any questions, comments, or inquiries, fill out the form and we'll get back to you!</h2>
+	</header>
+        <form action="#null" method="post" autocomplete="on" onsubmit="init()">
+	  <div>
+	    <label for="fName">First Name:</label>
+	    <input type="text" id="fName" name="fName" required>
+	  </div>
+	  <div>
+	    <label for="lName">Last Name:</label>
+	    <input type="text" id="lName" name="lName" required>
+	  </div>
+	  <div>
+	    <label for="email">E-mail:</label>
+	    <input type="email" id="email" name="email" required>
+	  </div>
+	  <div>
+	    <label for="phoneNo">Telephone Number:</label>
+	    <input type="tel" id="phoneNo" name="phoneNo" placeholder="123-123-1234">
+	  </div>
+	  <div>
+	    <label for="message">Message:</label>
+	    <textarea id="message" name="message" required>
+	    </textarea>
+	  </div>
+	  <div class="button">
+	    <button id= "button" type="submit">Send Message</button>
+	  </div>
+        </form>
+      </section>
+    </div>
+  </body>
+</html>
