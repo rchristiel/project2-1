@@ -34,7 +34,11 @@ html {
 
 body, h1, p {
 	text-align: center;
-	
+}
+
+h1 {
+	font-size: 2.618em;
+	margin: 5px 0px;
 }
 
 div {
@@ -45,6 +49,7 @@ label {
 	display: block;
 	text-align: center;
 	margin: 5px;
+	font-weight: bold;
 }
 
 textarea {
@@ -82,6 +87,10 @@ button {
 
 .PhoneNumber > p {
 	margin: 0px;
+}
+
+.container {
+	margin: 16px 0px;
 }
 
 @media only screen and (min-width: 480px) {
@@ -148,6 +157,20 @@ button {
 	.navlink:hover {
 		background-color: #AEB6BF;
 		border-radius: 20px;
+	}
+	
+	.info {
+		margin: auto;
+		display: inline-block;
+		width: 50%;
+		float: left;
+	}
+	
+	.form {
+		margin: auto;
+		display: inline-block;
+		width: 50%;
+		float: right;
 	}
 	
 }
