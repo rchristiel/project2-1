@@ -3,14 +3,14 @@ body{
 }
 .container{
 	width: 90%;
-	background-color: black;
+	background-color:  #DAF7A6;
 	margin: auto;
 	
 }
 #nav {
-    width:30%;
+    width:100%;
     margin: 0 auto;
-    padding: 0;
+    padding-bottom: 10px;
     overflow: hidden;
     background-color: #F2F4F4;
     border: 1px solid #AEB6BF;
@@ -20,14 +20,14 @@ body{
 .navbar{
     display:inline;
 }
-.navlink{
+.navbar{
     display:inline-block;
     color:#273746;
     text-align:center;
     padding:14px 16px;
     text-decoration:none;
 }
-.navlink:hover{
+.navbar:hover{
     background-color: #AEB6BF;
     border-radius: 20px;
 }
@@ -95,7 +95,7 @@ div {
 		display:inline;
 	}
 
-	.navlink {
+	.navbar {
 		display:inline-block;
 		color:#273746;
 		text-align:center;
@@ -103,7 +103,7 @@ div {
 		text-decoration:none;
 	}
 
-	.navlink:hover {
+	.navbar:hover {
 		background-color: #AEB6BF;
 		border-radius: 20px;
 	}
@@ -126,7 +126,7 @@ div {
 		display:inline;
 	}
 
-	.navlink {
+	.navbar {
 		display:inline-block;
 		color:#273746;
 		text-align:center;
@@ -134,7 +134,7 @@ div {
 		text-decoration:none;
 	}
 
-	.navlink:hover {
+	.navbar:hover {
 		background-color: #AEB6BF;
 		border-radius: 20px;
 	}
