@@ -15,12 +15,11 @@ body{
   padding: 10px;
   box-shadow: 5px 10px #888888;
 }
-	
-}
-.navlink{
-  text-decoration: none;
-  font-family: 'Montserrat', Arial, "sans-serif";
-  font-size: 1em;
+	.navlink{
+    display:inline-block;
+    color:#273746;
+    text-align:center;
+    text-decoration:none;
 }
 	
 #nav {
@@ -102,10 +101,12 @@ div {
 		text-align:center;
 	}
 
-	.navbar {
-		display:inline;
-	}
-
+	.navlink{
+    display:inline-block;
+    color:#273746;
+    text-align:center;
+    text-decoration:none;
+  }
 	.navbar {
 		display:inline-block;
 		color:#273746;
@@ -133,9 +134,13 @@ div {
 		text-align:center;
 	}
 
-	.navbar {
-		display:inline;
-	}
+	.navlink{
+    display:inline-block;
+    color:#273746;
+    text-align:center;
+    text-decoration:none;
+  }
+
 
 	.navbar {
 		display:inline-block;
