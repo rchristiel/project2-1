@@ -13,6 +13,10 @@ body{
 	margin: auto;
 	
 }
+.navlink{
+  text-decoration: none;
+}
+	
 #nav {
     width:100%;
     margin: 0 auto;
