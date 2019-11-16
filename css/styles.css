@@ -8,13 +8,19 @@ body{
 }
 .container{
 	width: 90%;
-	height: 2900px;
-	background-color:  #DAF7A6;
+	height: 3900px;
+	background-color: #F2F4F4;
 	margin: auto;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px #888888;
+}
 	
 }
 .navlink{
   text-decoration: none;
+  font-family: 'Montserrat', Arial, "sans-serif";
+  font-size: 1em;
 }
 	
 #nav {
