@@ -8,13 +8,13 @@ body{
 }
 .container{
 	width: 90%;
-	height: 3900px;
+	height: 630em;
 	background-color: #F2F4F4;
 	margin: auto;
   border: 1px solid;
   padding: 10px;
   box-shadow: 5px 10px #888888;
-}
+ }
 	.navlink{
     display:inline-block;
     color:#273746;
@@ -119,7 +119,15 @@ div {
 		background-color: #AEB6BF;
 		border-radius: 20px;
 	}
-	
+  .container{
+    width: 90%;
+    height: 630em;
+    background-color: #F2F4F4;
+    margin: auto;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px #888888;
+  }
 }
 
 @media screen only and (min-width: 768px) {
@@ -162,5 +170,5 @@ div {
   border: 1px solid;
   padding: 10px;
   box-shadow: 5px 10px #888888;
-}
+  }
 }
