@@ -154,4 +154,13 @@ div {
 		background-color: #AEB6BF;
 		border-radius: 20px;
 	}
+  .container{
+	width: 90%;
+	height: 630em;
+	background-color: #F2F4F4;
+	margin: auto;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px #888888;
+}
 }
