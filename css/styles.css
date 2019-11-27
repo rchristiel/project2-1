@@ -1,3 +1,6 @@
+/* Color palette: https://paletton.com/#uid=13i0u0k0hXy00++00++1LPr4IEg */
+/* font-sizing: https://www.modularscale.com/?1&em&1.618 */
+
 #banner{
 	margin-bottom: 10px;
 	margin-top: 20px;
@@ -14,6 +17,12 @@ body{
   border: 1px solid;
   padding: 10px;
   box-shadow: 5px 10px #888888;
+ }
+ 
+ .form-container {
+  width: 85%;
+  text-align: center;
+  margin: auto;
  }
 #nav {
   list-style-type: none;
@@ -88,25 +97,37 @@ label {
 }
 
 textarea {
-	width: 80%;
-	height: 200px;
+	width: 90%;
+	height: 175px;
 }
 
 input {
-	width: 80%;
+	width: 90%;
 	height: 25px;
 }
 
 button {
 	margin: 10px;
 	border: none;
-	width: 50%;
+	width: 60%;
 	height: 45px;
 	font-family: 'Montserrat', Arial, sans-serif;
-	background-color: #AEB6BF;
+	background-color: #9CB7B7;
 	border-radius: 8px;
 }
 
+.info-header {
+		font-size: 1em;
+		font-weight: bold;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	
+	.form-content {
+		margin-top: 10px;
+		margin-bottom: 10px;
+		font-weight: bold;
+	}
 .info {
 	display: block;
 	width: 100%;
@@ -146,6 +167,25 @@ button {
   .slideshow-container{
 		width:60%;
 	}
+	
+	/* FORM */
+	input, textarea {
+		width: 95%;
+	}
+	
+	.info-header {
+		font-size: 1em;
+		font-weight: bold;
+		margin-top: 10px;
+	}
+	
+	.form-content {
+		margin-top: 10px;
+		margin-bottom: 10px;
+		font-weight: bold;
+	}
+	
+	
 }
 
 @media  only screen and (min-width: 768px) {
@@ -154,16 +194,60 @@ button {
 	height: 530em;
 	background-color: #F2F4F4;
 	margin: auto;
-  border: 1px solid;
-  padding: 10px;
-  box-shadow: 5px 10px #888888;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px #888888;
   }
   .slideshow-container{
-		width:60%;
+    width:60%;
 		
-		position: relative;
-		margin: auto;
+	position: relative;
+	margin: auto;
+  }
+	/* FORM */
+  .form-container {
+    width: 75%;
+  }
+	
+  .header {
+	margin-top: 20px;
+  }
+	
+  .info {
+	margin: auto;
+	/* display: inline-block; */
+	width: 50%;
+	float: left;
+	margin-top: 175px;
+  }
+	
+	.address, .PhoneNumber, .main-email {
+		margin: 25px;
+		font-size: 1.618em;
+		text-align: left;
 	}
 	
-	.mySildes
+	.info-header, .form-content {
+		font-size: 1.618em;
+		font-weight: bold;
+		text-align: center;
+	}
+	
+	.form-content {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	.form {
+		margin: auto;
+		/* display: inline-block; */
+		width: 50%;
+		float: right;
+		margin-top: 50px;
+		font-size: 1em;
+	}
+	
+	input, textarea {
+		width: 60%;
+	}
+	
 }
