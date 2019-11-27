@@ -5,29 +5,31 @@ html {
 }
 
 #nav {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-  text-align: center;
+    width:100%;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: #F2F4F4;
+    border: 1px solid #AEB6BF;
+    border-width: 1.5px 0;
+    text-align:center;
 }
 
 .navbar {
-  display:inline;
+    display:inline;
 }
 
 .navlink {
-  display: inline-block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+    display:inline-block;
+    color:#273746;
+    text-align:center;
+    padding:14px 16px;
+    text-decoration:none;
 }
 
-/* Change the link color to #111 (black) on hover */
 .navlink:hover {
-  background-color: #111;
+    background-color: #AEB6BF;
+    border-radius: 20px;
 }
 
 body, h1, p {
@@ -98,9 +100,64 @@ button {
 		font-family: 'Montserrat', Arial, sans-serif;
 	}
 	
+	#nav {
+		width: 30%;
+		margin: 0 auto;
+		padding: 0;
+		overflow: hidden;
+		background-color: #F2F4F4;
+		border: 1px solid #AEB6BF;
+		border-width: 1.5px 0;
+		text-align:center;
+	}
+
+	.navbar {
+		display:inline;
+	}
+
+	.navlink {
+		display:inline-block;
+		color:#273746;
+		text-align:center;
+		padding:14px 16px;
+		text-decoration:none;
+	}
+
+	.navlink:hover {
+		background-color: #AEB6BF;
+		border-radius: 20px;
+	}
+	
 }
 
 @media screen only and (min-width: 768px) {
+	#nav {
+		width: 33%;
+		margin: 0 auto;
+		padding: 0;
+		overflow: hidden;
+		background-color: #F2F4F4;
+		border: 1px solid #AEB6BF;
+		border-width: 1.5px 0;
+		text-align:center;
+	}
+
+	.navbar {
+		display:inline;
+	}
+
+	.navlink {
+		display:inline-block;
+		color:#273746;
+		text-align:center;
+		padding:14px 16px;
+		text-decoration:none;
+	}
+
+	.navlink:hover {
+		background-color: #AEB6BF;
+		border-radius: 20px;
+	}
 	
 	.info {
 		margin: auto;
