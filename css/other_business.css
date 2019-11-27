@@ -59,7 +59,6 @@ body{
     overflow: auto;
 }
 .pic{
-    float:left;
     width: 150px;
 }
 .pic img{
