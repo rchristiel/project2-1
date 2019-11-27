@@ -60,7 +60,7 @@ body{
 }
 .pic{
     float:left;
-    width: 250px;
+    width: 150px;
 }
 .pic img{
     display:block;
@@ -87,6 +87,10 @@ body{
     .intro{
         margin-left: 200px;
     }
+    .pic{
+        float:left;
+        width: 250px;
+    }
 }
 @media only screen and (min-width: 768px){
     .container{
@@ -100,5 +104,9 @@ body{
     }
     .intro{
         margin-left: 200px;
+    }
+    .pic{
+        float:left;
+        width: 250px;
     }
 }
