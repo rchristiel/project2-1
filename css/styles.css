@@ -1,5 +1,14 @@
+
 /* Color palette: https://paletton.com/#uid=13i0u0k0hXy00++00++1LPr4IEg */
 /* font-sizing: https://www.modularscale.com/?1&em&1.618 */
+
+
+.text{
+font-family: 'Georgia',Times,"Times New Roman";
+line-height: 2em;
+font-size: 2em;
+background-color: #f9e6ff;
+}
 
 #banner{
 	margin-bottom: 10px;
