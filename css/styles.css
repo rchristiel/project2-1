@@ -87,7 +87,6 @@ div {
 		font-size: 1em;
 		font-family: 'Montserrat', Arial, sans-serif;
 	}
-	
   .container{
     width: 90%;
     height: 630em;
@@ -97,6 +96,9 @@ div {
     padding: 10px;
     box-shadow: 5px 10px #888888;
   }
+  .slideshow-container{
+		width:60%;
+	}
 }
 
 @media  only screen and (min-width: 768px) {
@@ -109,4 +111,7 @@ div {
   padding: 10px;
   box-shadow: 5px 10px #888888;
   }
+  .slideshow-container{
+		width:60%;
+	}
 }
