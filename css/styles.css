@@ -112,5 +112,10 @@ div {
   }
   .slideshow-container{
 		width:60%;
+		
+		position: relative;
+		margin: auto;
 	}
+	
+	.mySildes
 }
