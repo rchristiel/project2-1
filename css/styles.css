@@ -79,6 +79,54 @@ h1 {
 div {
 	display: block;
 }
+/* FORM */
+label {
+	display: block;
+	text-align: center;
+	margin: 5px;
+	font-weight: bold;
+}
+
+textarea {
+	width: 80%;
+	height: 200px;
+}
+
+input {
+	width: 80%;
+	height: 25px;
+}
+
+button {
+	margin: 10px;
+	border: none;
+	width: 50%;
+	height: 45px;
+	font-family: 'Montserrat', Arial, sans-serif;
+	background-color: #AEB6BF;
+	border-radius: 8px;
+}
+
+.info {
+	display: block;
+	width: 100%;
+}
+
+.address > p {
+	margin: 0px;
+}
+
+.PhoneNumber {
+	margin: 10px 0px;
+}
+
+.PhoneNumber > p {
+	margin: 0px;
+}
+
+.container {
+	margin: 16px 0px;
+}
 
 @media only screen and (min-width: 480px) {
 	html {
