@@ -41,6 +41,11 @@ h1 {
 	margin: 5px 0px;
 }
 
+
+.header {
+	font-size: 0.618em;
+}
+
 div {
 	display: block;
 }
@@ -101,8 +106,8 @@ button {
 	}
 	
 	#nav {
-		width: 30%;
-		margin: 0 auto;
+		width: 90%;
+		margin: 5px auto;
 		padding: 0;
 		overflow: hidden;
 		background-color: #F2F4F4;
@@ -126,6 +131,11 @@ button {
 	.navlink:hover {
 		background-color: #AEB6BF;
 		border-radius: 20px;
+	}
+	
+	input, textarea {
+		
+		width: 70%;
 	}
 	
 }
@@ -171,6 +181,10 @@ button {
 		display: inline-block;
 		width: 50%;
 		float: right;
+	}
+	
+	input {
+		width: 60%;
 	}
 	
 }
