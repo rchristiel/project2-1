@@ -64,9 +64,6 @@ body{
 .pic img{
     display:block;
 }
-.intro{
-    margin-left: 150px;
-}
 .clear{
     clear:both;
 }
@@ -75,7 +72,7 @@ body{
     
     .container{
         font-size: 0.8em;
-        width: 600px;
+        width: 450px;
     }
     #head{
         padding-bottom:20px;
@@ -87,8 +84,8 @@ body{
         margin-left: 200px;
     }
     .pic{
-        float:left;
         width: 250px;
+        float:left;
     }
 }
 @media only screen and (min-width: 768px){
