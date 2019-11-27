@@ -40,7 +40,7 @@ body{
 
 .container{
     margin: 0 auto;
-    width: 600px;
+    width: 300px;
     height:200px;
     font-family: 'Montserrat', Arial, sans-serif;
     font-size: 0.7em;
@@ -59,14 +59,10 @@ body{
     overflow: auto;
 }
 .pic{
-    float:left;
-    width: 250px;
+    width: 150px;
 }
 .pic img{
     display:block;
-}
-.intro{
-    margin-left: 150px;
 }
 .clear{
     clear:both;
@@ -76,6 +72,7 @@ body{
     
     .container{
         font-size: 0.8em;
+        width: 450px;
     }
     #head{
         padding-bottom:20px;
@@ -86,10 +83,15 @@ body{
     .intro{
         margin-left: 200px;
     }
+    .pic{
+        width: 250px;
+        float:left;
+    }
 }
 @media only screen and (min-width: 768px){
     .container{
         font-size: 0.95em;
+        width: 600px;
     }
     #head{
         padding-bottom:20px;
@@ -98,5 +100,9 @@ body{
     }
     .intro{
         margin-left: 200px;
+    }
+    .pic{
+        float:left;
+        width: 250px;
     }
 }
