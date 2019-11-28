@@ -20,12 +20,8 @@ body{
 
 .container {
   width: 90%;
-  height: 185em;
   background-color: #F2F4F4;
   margin: auto;
-  border: 1px solid;
-  padding: 10px;
-  box-shadow: 5px 10px #888888;
 }
  
 .form-container {
@@ -200,12 +196,8 @@ button {
 	
   .container{
     width: 90%;
-    height: 630em;
     background-color: #F2F4F4;
     margin: auto;
-    border: 1px solid;
-    padding: 10px;
-    box-shadow: 5px 10px #888888;
   }
 	
   .slideshow-container{
@@ -233,12 +225,8 @@ button {
 @media  only screen and (min-width: 768px) {
   .container{
     width: 90%;
-    height: 530em;
     background-color: #F2F4F4;
     margin: auto;
-    border: 1px solid;
-    padding: 10px;
-    box-shadow: 5px 10px #888888;
   }
 	
   .slideshow-container{
