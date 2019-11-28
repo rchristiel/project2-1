@@ -97,11 +97,11 @@ div {
   display: block;
 }
 
-  .homepage-content p {
-    margin: 20px;
-	font-size: 1em;
-	text-align: justify;
-  }
+.homepage-content p{
+  margin: 20px;
+  font-size: 1em;
+  text-align: justify;
+}
 
 a.button5 {
   display:block;
@@ -111,7 +111,7 @@ a.button5 {
   border-radius:0.12em;
   box-sizing: border-box;
   text-decoration:none;
-  font-family: 'Montserrat', Arial, sans-serif;
+  font-family:'Montserrat', Arial, sans-serif;
   font-weight:300;
   font-size: 1.618em;
   color:#000000;
@@ -234,10 +234,15 @@ button {
     background-color: #F2F4F4;
     margin: auto;
   }
-  
-  .homepage-content p {
+  .homepage-content p{
     margin: 20px;
-	font-size: 1.618em;
+    font-size: 1.618em;
+  }
+  img {
+    width: 40%;
+  }
+  #banner{
+    width: 50%;
   }
 	
   .slideshow-container{
@@ -272,7 +277,8 @@ button {
   }
   
   .button_list {
-    margin-top:2em;
+    margin-top:3em;
+    margin-bottom:3em;
   }
 	
   /* FORM */
