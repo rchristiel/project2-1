@@ -20,7 +20,6 @@ body{
 
 .container {
   width: 90%;
-  height: 185em;
   margin: auto;
 }
  
@@ -268,11 +267,6 @@ button {
   .form-container {
     width: 75%;
   }
-	
-  .header {
-    margin-top: 20px;
-  }
-	
   .info {
     margin: auto;
     /* display: inline-block; */
