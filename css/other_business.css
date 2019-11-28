@@ -38,10 +38,10 @@ body{
     background-color: #F2F4F4;
 }
 
-.ob-container{
+.container{
     margin: 0 auto;
-    width: 85%;
-    /* height:200px; */
+    width: 300px;
+    height:200px;
     font-family: 'Montserrat', Arial, sans-serif;
     font-size: 0.7em;
 }
@@ -70,7 +70,7 @@ body{
 
 @media only screen and (min-width: 480px){
     
-    .ob-container{
+    .container{
         font-size: 0.8em;
         width: 450px;
     }

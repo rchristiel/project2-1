@@ -23,7 +23,9 @@ body{
   height: 185em;
   background-color: #F2F4F4;
   margin: auto;
-
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px #888888;
 }
  
 .form-container {
@@ -31,7 +33,6 @@ body{
   text-align: center;
   margin: auto;
 }
-
 
 #nav {
   list-style-type: none;
@@ -108,7 +109,7 @@ a.button5 {
   border-radius:0.12em;
   box-sizing: border-box;
   text-decoration:none;
-  font-family: 'Montserrat', Arial, sans-serif;
+  font-family:'Roboto',sans-serif;
   font-weight:300;
   font-size: 2em;
   color:#000000;
@@ -206,7 +207,6 @@ button {
     padding: 10px;
     box-shadow: 5px 10px #888888;
   }
-  
 	
   .slideshow-container{
     width:60%;
@@ -233,8 +233,12 @@ button {
 @media  only screen and (min-width: 768px) {
   .container{
     width: 90%;
+    height: 530em;
     background-color: #F2F4F4;
     margin: auto;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px #888888;
   }
 	
   .slideshow-container{
@@ -252,7 +256,7 @@ button {
     border-radius:0.12em;
     box-sizing: border-box;
     text-decoration:none;
-    font-family: 'Montserrat', Arial, sans-serif;
+    font-family:'Roboto',sans-serif;
     font-weight:300;
     font-size: 3em;
     color:#000000;
