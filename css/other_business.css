@@ -1,11 +1,11 @@
 html {
-	background-color: #F2F4F4;
-	font-size: 1em;
-	font-family: 'Montserrat', Arial, sans-serif;
+  background-color: #F2F4F4;
+  font-size: 1em;
+  font-family: 'Montserrat', Arial, sans-serif;
 }
 
 div {
-	display: block;
+  display: block;
 }
 
 #nav {
@@ -35,74 +35,73 @@ div {
 }
 
 body{
-    background-color: #F2F4F4;
+  background-color: #F2F4F4;
 }
 
 .container{
-    margin: 0 auto;
-    width: 300px;
-    height:200px;
-    font-family: 'Montserrat', Arial, sans-serif;
-    font-size: 0.7em;
+  margin: 0 auto;
+  width: 300px;
+  height:200px;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-size: 0.7em;
 }
 #head{
-    text-align:center;
-    padding-bottom:20px;
-    font-size:1.65em;
-    letter-spacing: 1.0px;
-    padding-top: 10px;
-	margin: 5px 0px;
+  text-align:center;
+  padding-bottom:20px;
+  font-size:1.65em;
+  letter-spacing: 1.0px;
+  padding-top: 10px;
+  margin: 5px 0px;
 }
 .place{
-    margin: 25px 20px 0 0;
-    padding: 20px 10px;
-    overflow: auto;
+  margin: 25px 20px 0 0;
+  padding: 20px 10px;
+  overflow: auto;
 }
 .pic{
-    width: 150px;
+  width: 150px;
 }
 .pic img{
-    display:block;
+  display:block;
 }
 .clear{
-    clear:both;
+  clear:both;
 }
 
 @media only screen and (min-width: 480px){
+  .container{
+      font-size: 0.8em;
+      width: 450px;
+  }
+  #head{
+      padding-bottom:20px;
+      font-size:2em;
+      letter-spacing: 1.25px;
+  }
     
-    .container{
-        font-size: 0.8em;
-        width: 450px;
-    }
-    #head{
-        padding-bottom:20px;
-        font-size:2em;
-        letter-spacing: 1.25px;
-    }
-    
-    .intro{
-        margin-left: 200px;
-    }
-    .pic{
-        width: 250px;
-        float:left;
-    }
+  .intro{
+      margin-left: 200px;
+  }
+  .pic{
+      width: 250px;
+      float:left;
+  }
 }
 @media only screen and (min-width: 768px){
-    .container{
-        font-size: 0.95em;
-        width: 600px;
-    }
-    #head{
-        padding-bottom:20px;
-        font-size:2.45em;
-        letter-spacing: 1.5px;
-    }
-    .intro{
-        margin-left: 200px;
-    }
-    .pic{
-        float:left;
-        width: 250px;
-    }
+  .container{
+      font-size: 0.95em;
+      width: 600px;
+  }
+  #head{
+      padding-bottom:20px;
+      font-size:2.45em;
+      letter-spacing: 1.5px;
+  }
+  .intro{
+      margin-left: 200px;
+  }
+  .pic{
+      float:left;
+      width: 250px;
+  }
 }
