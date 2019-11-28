@@ -4,9 +4,9 @@
 
 .text {
   font-family: 'Montserrat', Arial, sans-serif;
-  line-height: 2em;
-  font-size: 2em;
-  background-color: #f9e6ff;
+  line-height: 1em;
+  font-size: 1.618em;
+  background-color: #CEDADA;
 }
 
 #banner {
@@ -20,6 +20,7 @@ body{
 
 .container {
   width: 90%;
+  /* height: 185em; */
   margin: auto;
 }
  
@@ -96,6 +97,11 @@ div {
   display: block;
 }
 
+.homepage-content p{
+  margin: 20px;
+  font-size: 1em;
+  text-align: justify;
+}
 a.button5 {
   display:block;
   padding:0.46em 1.6em;
@@ -104,12 +110,12 @@ a.button5 {
   border-radius:0.12em;
   box-sizing: border-box;
   text-decoration:none;
-  font-family:'Roboto',sans-serif;
+  font-family:'Montserrat', Arial, sans-serif;
   font-weight:300;
-  font-size: 2em;
+  font-size: 1.618em;
   color:#000000;
   text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
-  background-color:#FFFFFF;
+  background-color:#CEDADA;
   text-align:center;
   transition: all 0.15s;
  }
@@ -227,6 +233,16 @@ button {
     background-color: #F2F4F4;
     margin: auto;
   }
+  .homepage-content p{
+    margin: 20px;
+    font-size: 1.618em;
+  }
+  img {
+    width: 40%;
+  }
+  #banner{
+    width: 50%;
+  }
 	
   .slideshow-container{
     width:60%;	
@@ -243,12 +259,12 @@ button {
     border-radius:0.12em;
     box-sizing: border-box;
     text-decoration:none;
-    font-family:'Roboto',sans-serif;
+    font-family: 'Montserrat', Arial, sans-serif;
     font-weight:300;
-    font-size: 3em;
+    font-size: 2em;
     color:#000000;
     text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
-    background-color:#FFFFFF;
+    background-color:#CEDADA;
     text-align:center;
     transition: all 0.15s;
   }
@@ -261,6 +277,7 @@ button {
   
   .button_list {
     margin-top:3em;
+    margin-bottom:3em;
   }
 	
   /* FORM */
